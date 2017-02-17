@@ -4,7 +4,8 @@ public class Singleton {
 	
 	private static Singleton uniqueInstance;
 	
-	private Singleton() {}
+	private Singleton() {
+	}
 	
 	public static Singleton getInstance() {
 		if (uniqueInstance == null) {
